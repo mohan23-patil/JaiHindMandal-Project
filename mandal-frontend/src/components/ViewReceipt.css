@@ -1,0 +1,975 @@
+/* =========================================================
+   PAGE
+========================================================= */
+
+.vr-page {
+    min-height: 100vh;
+
+    background: #f4f6f9;
+
+    color: #172033;
+
+    font-family:
+        Inter,
+        Arial,
+        Helvetica,
+        sans-serif;
+
+    padding-bottom: 60px;
+}
+
+
+/* =========================================================
+   MAIN
+========================================================= */
+
+.vr-main {
+    max-width: 900px;
+
+    margin: auto;
+
+    padding: 25px 20px 50px;
+}
+
+
+/* =========================================================
+   ACTION BAR
+========================================================= */
+
+.vr-actions {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: space-between;
+
+    gap: 15px;
+
+    margin-bottom: 20px;
+}
+
+
+/* RIGHT ACTIONS */
+
+.vr-right-actions {
+    display: flex;
+
+    align-items: center;
+
+    gap: 10px;
+}
+
+
+/* =========================================================
+   BACK BUTTON
+========================================================= */
+
+.vr-back-btn {
+    border: none;
+
+    background: #e8eef5;
+
+    color: #344054;
+
+    padding: 11px 18px;
+
+    border-radius: 9px;
+
+    font-size: 14px;
+
+    font-weight: 700;
+
+    cursor: pointer;
+
+    transition: all 0.2s ease;
+}
+
+.vr-back-btn:hover {
+    background: #dce5ef;
+
+    transform: translateY(-1px);
+}
+
+
+/* =========================================================
+   LANGUAGE
+========================================================= */
+
+.vr-language-box {
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    background: #ffffff;
+
+    border: 1px solid #d0d5dd;
+
+    padding: 5px 8px 5px 12px;
+
+    border-radius: 9px;
+}
+
+.vr-language-box label {
+    font-size: 13px;
+
+    font-weight: 700;
+
+    color: #344054;
+
+    white-space: nowrap;
+}
+
+.vr-language-box select {
+    border: 1px solid #d0d5dd;
+
+    background: #ffffff;
+
+    color: #172033;
+
+    padding: 7px 9px;
+
+    border-radius: 7px;
+
+    font-size: 13px;
+
+    font-weight: 700;
+
+    outline: none;
+
+    cursor: pointer;
+}
+
+.vr-language-box select:focus {
+    border-color: #ef6c00;
+}
+
+
+/* =========================================================
+   PRINT BUTTON
+========================================================= */
+
+.vr-print-btn {
+    border: none;
+
+    background: #ef6c00;
+
+    color: #ffffff;
+
+    padding: 12px 22px;
+
+    border-radius: 9px;
+
+    font-size: 14px;
+
+    font-weight: 800;
+
+    cursor: pointer;
+
+    box-shadow:
+        0 4px 12px rgba(239, 108, 0, 0.25);
+
+    transition: all 0.2s ease;
+}
+
+.vr-print-btn:hover {
+    background: #d85f00;
+
+    transform: translateY(-1px);
+}
+
+
+/* =========================================================
+   RECEIPT CARD
+========================================================= */
+
+.vr-card {
+    width: 100%;
+
+    max-width: 680px;
+
+    margin: 0 auto;
+
+    background: #ffffff;
+
+    border-radius: 16px;
+
+    overflow: hidden;
+
+    border: 1px solid #e4e7ec;
+
+    box-shadow:
+        0 15px 40px rgba(16, 24, 40, 0.10);
+}
+
+
+/* =========================================================
+   DECORATIVE BORDERS
+========================================================= */
+
+.vr-top-border {
+    height: 7px;
+
+    background:
+        linear-gradient(
+            90deg,
+            #ff9933 0%,
+            #ffffff 50%,
+            #138808 100%
+        );
+}
+
+.vr-bottom-border {
+    height: 6px;
+
+    background:
+        linear-gradient(
+            90deg,
+            #ff9933 0%,
+            #ffffff 50%,
+            #138808 100%
+        );
+}
+
+
+/* =========================================================
+   HEADER
+========================================================= */
+
+.vr-header {
+    display: flex;
+
+    align-items: center;
+
+    gap: 18px;
+
+    padding: 28px 38px 23px;
+}
+
+
+/* =========================================================
+   LOGO
+========================================================= */
+
+.vr-logo {
+    width: 54px;
+
+    height: 54px;
+
+    border-radius: 10px;
+
+    background: #fff8e8;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex-shrink: 0;
+
+    border: 1px solid #f5dfad;
+
+    overflow: hidden;
+}
+
+.vr-logo img {
+    width: 42px;
+
+    height: 42px;
+
+    object-fit: contain;
+
+    display: block;
+}
+
+
+/* =========================================================
+   HEADER TEXT
+========================================================= */
+
+.vr-header-info h1 {
+    margin: 0 0 5px;
+
+    font-size: 29px;
+
+    line-height: 1.2;
+
+    font-weight: 800;
+
+    color: #172033;
+}
+
+.vr-location {
+    margin: 0 0 3px;
+
+    font-size: 15px;
+
+    color: #475467;
+}
+
+.vr-org {
+    margin: 0;
+
+    font-size: 14px;
+
+    color: #667085;
+}
+
+
+/* =========================================================
+   EVENT
+========================================================= */
+
+.vr-event {
+    margin: 0 38px;
+
+    padding: 13px 18px;
+
+    background: #fff7ed;
+
+    border: 1px solid #fed7aa;
+
+    border-radius: 10px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 8px;
+
+    color: #c2410c;
+
+    font-size: 15px;
+
+    font-weight: 800;
+
+    text-align: center;
+}
+
+.vr-event-icon {
+    font-size: 18px;
+}
+
+
+/* =========================================================
+   RECEIPT ID
+========================================================= */
+
+.vr-receipt-id {
+    padding: 20px 38px 23px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 5px;
+}
+
+.vr-receipt-id-label {
+    margin: 0;
+
+    font-size: 11px;
+
+    letter-spacing: 1.5px;
+
+    font-weight: 800;
+
+    color: #98a2b3;
+}
+
+.vr-receipt-id strong {
+    font-size: 15px;
+
+    color: #344054;
+
+    letter-spacing: 0.5px;
+}
+
+
+/* =========================================================
+   DIVIDER
+========================================================= */
+
+.vr-divider {
+    height: 1px;
+
+    background: #eaecf0;
+
+    margin: 0 38px;
+}
+
+
+/* =========================================================
+   DONOR SECTION
+========================================================= */
+
+.vr-donor-section {
+    padding: 27px 38px;
+}
+
+.vr-section-title {
+    margin: 0 0 20px;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    font-size: 17px;
+
+    color: #18243a;
+
+    font-weight: 800;
+}
+
+
+/* =========================================================
+   DONOR GRID
+========================================================= */
+
+.vr-donor-grid {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 14px;
+}
+
+
+/* =========================================================
+   DONOR ROW
+========================================================= */
+
+.vr-donor-row {
+    display: grid;
+
+    grid-template-columns: 190px 1fr;
+
+    align-items: center;
+
+    min-height: 34px;
+
+    padding-bottom: 12px;
+
+    border-bottom: 1px dashed #eaecf0;
+}
+
+.vr-donor-row:last-child {
+    border-bottom: none;
+
+    padding-bottom: 0;
+}
+
+
+/* =========================================================
+   DONOR LABEL
+========================================================= */
+
+.vr-donor-label {
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    color: #667085;
+
+    font-size: 14px;
+
+    font-weight: 600;
+}
+
+.vr-donor-label span {
+    width: 22px;
+
+    font-size: 17px;
+}
+
+
+/* =========================================================
+   DONOR VALUE
+========================================================= */
+
+.vr-donor-value {
+    color: #18243a;
+
+    font-size: 15px;
+
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   AMOUNT
+========================================================= */
+
+.vr-amount-section {
+    padding: 27px 38px;
+}
+
+.vr-amount-title {
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    font-size: 17px;
+
+    font-weight: 800;
+
+    color: #18243a;
+
+    margin-bottom: 15px;
+}
+
+.vr-amount-box {
+    background: #fffaf0;
+
+    border: 1px solid #f5d58a;
+
+    border-radius: 12px;
+
+    padding: 22px;
+
+    text-align: center;
+}
+
+.vr-amount {
+    font-size: 34px;
+
+    font-weight: 900;
+
+    color: #b45309;
+
+    margin-bottom: 7px;
+}
+
+.vr-amount-words {
+    font-size: 14px;
+
+    color: #667085;
+
+    font-weight: 600;
+
+    line-height: 1.5;
+}
+
+
+/* =========================================================
+   THANK YOU
+========================================================= */
+
+.vr-thank-you {
+    text-align: center;
+
+    padding: 28px 38px;
+}
+
+.vr-thank-you-icon {
+    width: 42px;
+
+    height: 42px;
+
+    margin: 0 auto 8px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    overflow: hidden;
+}
+
+.vr-thank-you-icon img {
+    width: 34px;
+
+    height: 34px;
+
+    object-fit: contain;
+
+    display: block;
+}
+
+.vr-thank-you h2 {
+    margin: 0 0 8px;
+
+    font-size: 22px;
+
+    color: #18243a;
+}
+
+.vr-thank-you-main {
+    margin: 0 0 6px;
+
+    font-size: 15px;
+
+    font-weight: 700;
+
+    color: #344054;
+}
+
+.vr-thank-you-sub {
+    margin: 0;
+
+    font-size: 13px;
+
+    color: #98a2b3;
+}
+
+
+/* =========================================================
+   FOOTER
+========================================================= */
+
+.vr-footer {
+    padding: 25px 38px;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    gap: 25px;
+}
+
+
+/* FOOTER MAIN */
+
+.vr-footer-main h3 {
+    margin: 0 0 5px;
+
+    font-size: 16px;
+
+    color: #18243a;
+}
+
+.vr-footer-main p {
+    margin: 0;
+
+    color: #667085;
+
+    font-size: 13px;
+}
+
+
+/* FOOTER NOTES */
+
+.vr-footer-notes p {
+    margin: 0 0 5px;
+
+    color: #667085;
+
+    font-size: 12px;
+}
+
+.vr-footer-notes p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* SEAL */
+
+.vr-footer-seal {
+    grid-column: 1 / -1;
+
+    text-align: center;
+
+    margin-top: 5px;
+
+    padding: 9px;
+
+    border: 1px dashed #d0d5dd;
+
+    border-radius: 8px;
+
+    font-size: 12px;
+
+    color: #667085;
+
+    font-weight: 700;
+}
+
+
+/* =========================================================
+   ERROR PAGE
+========================================================= */
+
+.vr-error-page {
+    min-height: 100vh;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    background: #f4f6f9;
+}
+
+.vr-error {
+    background: #ffffff;
+
+    padding: 45px;
+
+    border-radius: 16px;
+
+    text-align: center;
+
+    box-shadow:
+        0 15px 40px rgba(0, 0, 0, 0.08);
+}
+
+.vr-error-icon {
+    font-size: 45px;
+}
+
+.vr-error h2 {
+    margin: 15px 0 8px;
+}
+
+.vr-error p {
+    color: #667085;
+
+    margin-bottom: 22px;
+}
+
+
+/* =========================================================
+   RESPONSIVE
+========================================================= */
+
+@media (max-width: 700px) {
+
+    .vr-main {
+        padding: 18px 10px 40px;
+    }
+
+
+    .vr-actions {
+        align-items: stretch;
+
+        flex-direction: column;
+
+        gap: 10px;
+    }
+
+
+    .vr-right-actions {
+        width: 100%;
+
+        justify-content: space-between;
+    }
+
+
+    .vr-back-btn {
+        width: 100%;
+    }
+
+
+    .vr-language-box {
+        flex: 1;
+
+        justify-content: space-between;
+    }
+
+
+    .vr-language-box label {
+        font-size: 12px;
+    }
+
+
+    .vr-language-box select {
+        font-size: 12px;
+
+        padding: 6px;
+    }
+
+
+    .vr-print-btn {
+        padding: 10px 12px;
+
+        font-size: 12px;
+    }
+
+
+    .vr-card {
+        border-radius: 12px;
+    }
+
+
+    .vr-header {
+        padding: 25px 22px 20px;
+
+        gap: 13px;
+    }
+
+
+    .vr-logo {
+        width: 48px;
+
+        height: 48px;
+    }
+
+
+    .vr-logo img {
+        width: 37px;
+
+        height: 37px;
+    }
+
+
+    .vr-header-info h1 {
+        font-size: 21px;
+    }
+
+
+    .vr-location,
+    .vr-org {
+        font-size: 12px;
+    }
+
+
+    .vr-event {
+        margin: 0 22px;
+
+        font-size: 13px;
+    }
+
+
+    .vr-receipt-id {
+        padding-left: 22px;
+
+        padding-right: 22px;
+    }
+
+
+    .vr-divider {
+        margin-left: 22px;
+
+        margin-right: 22px;
+    }
+
+
+    .vr-donor-section,
+    .vr-amount-section {
+        padding-left: 22px;
+
+        padding-right: 22px;
+    }
+
+
+    .vr-donor-row {
+        grid-template-columns: 1fr;
+
+        gap: 5px;
+    }
+
+
+    .vr-donor-value {
+        padding-left: 30px;
+    }
+
+
+    .vr-footer {
+        padding-left: 22px;
+
+        padding-right: 22px;
+
+        grid-template-columns: 1fr;
+    }
+
+
+    .vr-footer-seal {
+        grid-column: auto;
+    }
+}
+
+
+/* =========================================================
+   PRINT
+========================================================= */
+
+@media print {
+
+    @page {
+        size: A4;
+
+        margin: 12mm;
+    }
+
+
+    * {
+        -webkit-print-color-adjust: exact !important;
+
+        print-color-adjust: exact !important;
+    }
+
+
+    body {
+        margin: 0 !important;
+
+        padding: 0 !important;
+
+        background: #ffffff !important;
+    }
+
+
+    .no-print {
+        display: none !important;
+    }
+
+
+    .vr-page {
+        background: #ffffff !important;
+
+        padding: 0 !important;
+
+        min-height: auto;
+    }
+
+
+    .vr-main {
+        max-width: none;
+
+        padding: 0;
+    }
+
+
+    .vr-card {
+        max-width: 100%;
+
+        margin: 0;
+
+        border: 1px solid #ddd;
+
+        box-shadow: none;
+
+        border-radius: 0;
+    }
+
+
+    .vr-header {
+        padding-top: 25px;
+    }
+
+
+    .vr-event {
+        background: #fff7ed !important;
+    }
+
+
+    .vr-amount-box {
+        background: #fffaf0 !important;
+    }
+
+
+    .vr-divider {
+        background: #ddd !important;
+    }
+}
